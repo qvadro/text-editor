@@ -1,0 +1,134 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	background-color: #464f54;
+	margin: 0;
+}
+
+.form-top{
+	width: 67%;
+	padding-left: 50px;
+	position: absolute;
+	top: 50px;
+	right: 0;
+	background-color: black;
+	color:white;
+	height: 180px;
+}
+
+.title {
+	display: block;
+	text-transform: uppercase;
+	color: #b4b4b4;
+	text-decoration: none;
+	letter-spacing: .219em;
+	padding-top: 20px;
+	font-size: 15px;
+	font-family: "proxima_novaregular", Helvetica, sans-serif;
+}
+
+.title_main {
+	background-color: black;
+	color: white;
+	font-size: 48px;
+	padding-top: 0px;
+}
+
+.hr_top {
+	border: none;
+	background-color: #303030;
+	height: 2px;
+	color: #303030;
+}
+
+.form-bottom{
+	border: solid 1px #f6bc2c;
+	width: 64%;
+	position: absolute;
+	top: 230px;
+	right: 0;
+	padding-left: 40px;
+	display: flex;	
+	align-items: center;
+	background-color: #f6bc2c;
+	height: 74px;
+}
+button {
+	margin-right: 10px;
+	background-color: inherit;
+	border:none;
+	opacity: 0.7;
+	width: 50px;
+	height: 50px;
+	font-weight: bold;
+	color: white;
+	font-size: 90%;
+}
+button:hover {
+	color: white;
+	opacity: 1;
+}
+
+.line {
+	display: block;
+	background-color: black;
+	opacity: 1;
+}
+
+.line_left {
+	width: 70%;
+	display: block;
+	margin-left: 0%;
+	background-color: black;
+}
+
+.line_center {
+	width: 70%;
+	display: block;
+	background-color: black;
+	text-align: center;
+}
+.line_right {
+	width: 70%;
+	display: block;
+	margin-right: 0%;
+	background-color: black;
+}
+.wrapper {
+	max-width: 1065px;
+	margin: 0 auto;
+	padding-top: 150px;
+}
+.article {
+	background-color: white;
+	min-height: calc(100vh - 150px);
+	padding: 195px 130px 25px;
+}
+.article-title {
+	font-size: 78px;
+	font-family: "Futura Pt", Arial, sans-serif;
+	margin-bottom: 0px;
+}
+
+[rel="author"] {
+	text-transform: uppercase;
+	color: #b4b4b4;
+	letter-spacing: .219em;
+	text-decoration: none;
+	font-family: "proxima_novaregular", Helvetica, san-serif;
+	font-size: 15px;
+}
+.title-excerpt {
+	font-size: 30px;
+	font-style: italic;
+	color:#8f8f8f;
+	margin-top: 5px;
+	padding-bottom: 50px;
+}
+
+.article_text {
+	font-size: 23px;
+	font-weight: 500;
+
+}
